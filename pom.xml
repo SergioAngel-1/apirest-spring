@@ -52,11 +52,7 @@
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>3.2.0</version>
 				<configuration>
-					<archive>
-						<manifestEntries>
-							<Main-Class>com.example.MainClass</Main-Class>
-						</manifestEntries>
-					</archive>
+					<mainClass>com.example.MainClass</mainClass>					<!-- Asegúrate de que esto coincida con tu clase principal -->
 				</configuration>
 			</plugin>
 		</plugins>
